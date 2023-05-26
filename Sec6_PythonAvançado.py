@@ -35,3 +35,12 @@ def sub_2(x):
 lista = list(range(1, 20, 3))
 print(lista)
 print(list(map(sub_2, lista)))
+
+
+# Função Lambda
+# Simplifica funções de curta sintaxe
+
+lista = list(range(1, 20, 3))
+print(lista)
+
+print(list(map(lambda x: x-2, lista)))
