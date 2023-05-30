@@ -5,6 +5,9 @@ git clone {url}
 
 git add {file}
 
+git clean -f {nome do arquivo**}
+        # remove arquivos indesejados, se não passar o arquivo, remove todos 
+
 git status
 
 git commit -m {mensagem}
@@ -15,6 +18,9 @@ git commit -m -a {mensagem}
 
 git branch {nome do branch}
         # cria o branch
+
+git branch -m {nome do branch}
+        # cria o branch e o define como principal
 
 git checkout {nome do branch}
         # muda para o branch
