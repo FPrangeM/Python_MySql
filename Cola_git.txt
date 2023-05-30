@@ -1,0 +1,37 @@
+
+git init
+
+git clone {url}
+
+git add {file}
+
+git status
+
+git commit -m {mensagem}
+
+git commit -m -a {mensagem} 
+        # Para commitar também os arquivos versionados mesmo 
+        não estando no Stage basta adicionar o parâmetro -a
+
+git branch {nome do branch}
+        # cria o branch
+
+git checkout {nome do branch}
+        # muda para o branch
+
+git checkout -b {nome_da_branch}
+     # cria o branch
+
+git merge {nome do branch}
+      # junta o branch indicado ao branch atual
+
+git log
+        # exibe o historico de commits e merges
+
+git pull {nome do repositorio} {nome da branch}
+        # atualiza com os dados remotos
+
+git pull {nome do repositorio} {nome da branch}
+        # atualiza os dados remotos com os dados locais
+
+        
