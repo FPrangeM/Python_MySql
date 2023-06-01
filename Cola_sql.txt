@@ -1,0 +1,17 @@
+
+create schema {banco}
+
+drop schema {banco}
+
+
+
+
+CREATE TABLE `country` (
+  `Code` char(3) NOT NULL DEFAULT '',
+  `Continent` enum('Asia','Europe','North America','Africa','Oceania','Antarctica','South America') NOT NULL DEFAULT 'Asia',
+  `SurfaceArea` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `Population` int NOT NULL DEFAULT '0',
+  `LifeExpectancy` decimal(3,1) DEFAULT NULL,
+  `Code2` char(2) NOT NULL DEFAULT '',
+  PRIMARY KEY (`Code`)
+)
